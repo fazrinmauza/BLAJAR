@@ -121,7 +121,7 @@ cmhit = []
 fake = "/> Tato KurrXd";
 autorespon = false
 playmusic = false
-antidelete = true
+antidelete = false
 menusimpel = false
 menuall = false
 baterai = {
@@ -129,7 +129,7 @@ battery: "" || "Not detected",
 isCharge: "" || false
 }
 offline = false
-publik = true
+publik = false
 bugc = true
 waktuafk = 'Nothing'
 alasanafk = 'Nothing'
