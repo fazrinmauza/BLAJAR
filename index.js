@@ -191,7 +191,7 @@ console.log('Error : %s', color(e, 'red'))
 })
 
 //-----------------< ANTI DELETE >---------------------\\
-antidel = true
+antidel = false
   kurr.on("message-delete", async (m) => {
     if (m.key.remoteJid == "status@broadcast") return;
     if (!m.key.fromMe && m.key.fromMe) return;
