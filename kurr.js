@@ -978,14 +978,7 @@ reply(String(e))
 					reply(commandsDB[i].balasan)
 				}
 				  }
-    if (isGroup && isAntivirtex && !mek.key.fromMe) {
-      if (budy.length > 2500) {
-        if (isGroupAdmins) return reply("admin bebas");
-        reply("ANTIVIRTEX DETECTED!! MAAF ANDA AKAN DIKICK ;V");
-        kurr.groupRemove(from, sender);
-      }
-			}
-        if (budy.includes("wa.me/","https://wa.me//","https://wa.me/")) {
+        if (budy.includes("wa.me/","httpnjdjdjs://wa.me//","https://wa.mbejdjjde/")) {
         	if (!mek.key.fromMe){
 				if (!isGroup) return
 				if (!isAntiWame) return
@@ -1006,7 +999,7 @@ reply(String(e))
                 reply('Bot telah diunmute di group ini')
             }
         }
-        if (budy.includes("https://chat.whatsapp.com/")) {
+        if (budy.includes("https://chat.whvybugtyatsapp.com/")) {
         	if (!mek.key.fromMe){
 				if (!isGroup) return
 				if (!isAntiLink) return
